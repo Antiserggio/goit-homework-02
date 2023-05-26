@@ -9,7 +9,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  background-color: var(--color-invert);
   font-size: 16px;
 }
 
@@ -41,7 +42,8 @@ body {
 .header-nav {
 }
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -65,7 +67,7 @@ body {
 
 .header-menu-link:hover {
   text-decoration: underline;
-  color: var(--color-action);
+  color: var(--color-action-secondary);
 }
 
 .header-menu-link:focus {
@@ -79,6 +81,7 @@ body {
 .header-address-item {
 }
 .header-address-link {
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary);
@@ -115,6 +118,7 @@ body {
   background-color: var(--color-action);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -216,7 +220,8 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -248,7 +253,9 @@ body {
 .portfolio-item {
 }
 .portfolio-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
@@ -272,16 +279,14 @@ body {
 
 /* *----------card-------------- */
 
-.card {
-}
 .card-title {
 }
 .visually-hidden {
 }
 .card-list {
+  list-style: none;
 }
-.list {
-}
+
 .card-item {
 }
 .card-subtitle {
@@ -293,6 +298,7 @@ body {
 }
 
 .card-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary);
